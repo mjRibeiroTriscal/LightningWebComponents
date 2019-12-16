@@ -1,3 +1,22 @@
+<!--
+  @File Name          : realTimeChanges.html
+  @Description        : 
+  @Author             : Mario Oliveira
+  @Group              : 
+  @Last Modified By   : Mario Oliveira
+  @Last Modified On   : 16/12/2019 17:26:41
+  @Modification Log   : 
+  Ver       Date            Author      		    Modification
+  1.0    16/12/2019   Mario Oliveira     Initial Version
+-->
 <template>
+
+    <lightning-card title="HelloWorld" icon-name="custom:custom14">
+        <div class="slds-m-around_medium">
+            <p>Hello, {greeting}!</p>
+            <lightning-input label="Autocomplete" value={greeting}></lightning-input>
+            <lightning-input label="Name" value={greeting} onchange={changeHandler}></lightning-input>
+        </div>
+    </lightning-card>
     
 </template>
