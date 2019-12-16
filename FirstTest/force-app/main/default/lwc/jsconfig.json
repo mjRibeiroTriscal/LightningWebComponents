@@ -2,7 +2,14 @@
     "compilerOptions": {
         "experimentalDecorators": true,
         "baseUrl": ".",
-        "paths": {}
+        "paths": {
+            "c/RealTimeChanges": [
+                "RealTimeChanges/RealTimeChanges.js"
+            ],
+            "c/realTimeChanges": [
+                "realTimeChanges/realTimeChanges.js"
+            ]
+        }
     },
     "include": [
         "**/*",
